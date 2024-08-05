@@ -1,0 +1,8 @@
+Cupom Fiscal
+-------------------------------------------------------
+  ITENS COMPRADOS   
+O Hobbit-       37.27
+UML 2.0-       58.98
+Senhor dos anéis-       0.0
+-------------------------------------------------------
+Valor total da sua compra R$: 96.25

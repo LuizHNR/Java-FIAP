@@ -1,0 +1,14 @@
+
+]
+java:S1220""Move this file to a named package.8ÿŠ·Éó1J$619ef5cc-8646-4b26-9e31-7a922aa7e5df
+ˆ
+java:S1854 "@Remove this useless assignment to local variable "livroDigital".(Ù¹‰Åûÿÿÿÿ8†‹·Éó1J$fe071ce2-fddf-4886-ab86-46b326a3b3e9
+~	java:S125"<This block of commented-out lines of code should be removed.(èôó8‰‹·Éó1J$4a0cf061-52a7-4c9b-a420-76ffbba96329
+~	java:S125"<This block of commented-out lines of code should be removed.(ÇóÖ8‹‹·Éó1J$6ab2a20b-a9c9-473e-93f7-1859895ef966
+m	java:S106"+Replace this use of System.out by a logger.(ïôôş8‹·Éó1J$2afb16c7-82e4-4d2d-b258-3b01cce2ee68
+m	java:S106"+Replace this use of System.out by a logger.(ÜÕ½´8‹·Éó1J$99e2f350-3d11-4aa0-a418-47db4f66cb3d
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(€†âûÿÿÿÿ8‹·Éó1J$df0d1f5a-5686-4f9d-89d4-e395e912e534
+m	java:S106"+Replace this use of System.out by a logger.(ÚìÓÏ8‹·Éó1J$a02c701c-2346-4d06-925e-100bb0d03870
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(şŞŠÔùÿÿÿÿ8‹·Éó1J$a7733b00-dd81-4106-b661-c79403a34754
+y
+java:S1481 "1Remove this unused "livroDigital" local variable.(Ù¹‰Åûÿÿÿÿ8‹·Éó1J$0743bc2d-4bbc-4cef-9780-3abb9231e14e
