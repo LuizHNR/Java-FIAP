@@ -25,6 +25,6 @@ public class Filme extends Titulo implements IClassificavel{
 
     @Override
     public int getClassificacao() {
-        return 0;
+        return (int) somaAvaliacao / totalAvaliacoes;
     }
 }

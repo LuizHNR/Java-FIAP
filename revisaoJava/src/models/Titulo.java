@@ -6,6 +6,7 @@ public abstract class Titulo {
     private int anoLancamento;
     private int duracaoMinutos;
     protected double somaAvaliacao;
+    protected int totalAvaliacoes;
 
     //Getters e Setters
     public String getNome() {
