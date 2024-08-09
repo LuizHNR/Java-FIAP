@@ -1,4 +1,5 @@
 package tests;
+import models.ClassificacaoEnum;
 import models.Filme;
 import models.Serie;
 import models.Titulo;
@@ -14,6 +15,7 @@ public class Principal {
         novaSerie.setAtivo(false);
         novaSerie.setTemporadas(18);
         novaSerie.setEpPorTemp(20);
+        novaSerie.setClassificacaoIndicativa(ClassificacaoEnum.DEZESSEIS);
         novaSerie.setMinPorEp(24);
         novaSerie.exibirFichaTecnica();
 

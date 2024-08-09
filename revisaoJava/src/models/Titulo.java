@@ -7,6 +7,7 @@ public abstract class Titulo {
     private int duracaoMinutos;
     protected double somaAvaliacao;
     protected int totalAvaliacoes;
+    private ClassificacaoEnum classificacaoIndicativa;
 
     //Getters e Setters
     public String getNome() {
@@ -38,4 +39,12 @@ public abstract class Titulo {
     }
     //Método abstrato
     public abstract void somarAvaliacoes(double nota);
+
+    public ClassificacaoEnum getClassificacaoIndicativa() {
+        return classificacaoIndicativa;
+    }
+
+    public void setClassificacaoIndicativa(ClassificacaoEnum classificacaoIndicativa) {
+        this.classificacaoIndicativa = classificacaoIndicativa;
+    }
 }
