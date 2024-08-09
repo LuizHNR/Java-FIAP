@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java-FIAP.iml" filepath="$PROJECT_DIR$/.idea/Java-FIAP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dddVeiculos/dddVeiculos.iml" filepath="$PROJECT_DIR$/dddVeiculos/dddVeiculos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicioFuncionario/exercicioFuncionario.iml" filepath="$PROJECT_DIR$/exercicioFuncionario/exercicioFuncionario.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fiap-calculo/fiap-calculo.iml" filepath="$PROJECT_DIR$/fiap-calculo/fiap-calculo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fiap-livraria/fiap-livraria.iml" filepath="$PROJECT_DIR$/fiap-livraria/fiap-livraria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/revisaoJava/revisaoJava.iml" filepath="$PROJECT_DIR$/revisaoJava/revisaoJava.iml" />
+    </modules>
+  </component>
+</project>
