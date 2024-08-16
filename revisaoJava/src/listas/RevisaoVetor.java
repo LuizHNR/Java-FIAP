@@ -1,21 +1,19 @@
 package listas;
 
 public class RevisaoVetor {
-
     public static void main(String[] args) {
-
+        int tamanho = 5;
         //Conjunto de N elementos de mesmo tipo
         String[] alunos = new String[5];
 
-        alunos[0] = "Erick";
-        alunos[1] = "Luiz";
-        alunos[2] = "LuizH";
-        alunos[3] = "Vicenzo";
-        alunos[4] = "Pavam";
-
-        System.out.println("Lista de Alunos:\n");
-        for(int i = 0; i < 5; i++){
-            System.out.println( i+1 + alunos[i] );
+        alunos[0] = "Eliane";
+        alunos[1] = "Ana";
+        alunos[2] = "Enzo";
+        alunos[3] = "Murilo";
+        alunos[4] = "Pamela";
+        System.out.println("Lista de alunos");
+        for(int i = 0; i < alunos.length; i++){
+            System.out.println(alunos[i] );
         }
     }
 }
