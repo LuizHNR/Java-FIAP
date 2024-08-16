@@ -1,44 +1,65 @@
 package models;
 
 public abstract class Titulo {
-    //Atributos -> Caraterísticas
+    //Atributos -> Características do objeto
     private String nome;
-    private int anoLancamento;
-    private int duracaoMinutos;
+    private int anoDeLancamento;
+    protected int duracaoEmMinutos;
     protected double somaAvaliacao;
     protected int totalAvaliacoes;
     private ClassificacaoEnum classificacaoIndicativa;
 
-    //Getters e Setters
+    public void exibirFichaTecnica(){
+        System.out.println("Nome: " + nome);
+        System.out.println("Ano de lançamento: " + anoDeLancamento);
+    }
+
+    //Uma classe abstrata pode ter métodos abstratos
+    //Métodos abstratos -> Na super classe não tem implementação e colocamos a palavra abstract
+    //Porém as subclasse são OBRIGADAS a implementar o método
+    public abstract void somarNotas(double nota);
+
+    //Métodos de acesssos
+
     public String getNome() {
         return nome;
     }
+
     public void setNome(String nome) {
         this.nome = nome;
     }
 
-    public int getAnoLancamento() {
-        return anoLancamento;
-    }
-    public void setAnoLancamento(int anoLancamento) {
-        this.anoLancamento = anoLancamento;
+    public int getAnoDeLancamento() {
+        return anoDeLancamento;
     }
 
-    public int getDuracaoMinutos() {
-        return duracaoMinutos;
-    }
-    public void setDuracaoMinutos(int duracaoMinutos) {
-        this.duracaoMinutos = duracaoMinutos;
+    public void setAnoDeLancamento(int anoDeLancamento) {
+        this.anoDeLancamento = anoDeLancamento;
     }
 
-
-    //Métodos
-    public void exibirFichaTecnica(){
-        System.out.println("Nome: " + nome);
-        System.out.println("Ano de Lançamento: " + anoLancamento);
+    public int getDuracaoEmMinutos() {
+        return duracaoEmMinutos;
     }
-    //Método abstrato
-    public abstract void somarAvaliacoes(double nota);
+
+    public void setDuracaoEmMinutos(int duracaoEmMinutos) {
+        this.duracaoEmMinutos = duracaoEmMinutos;
+    }
+
+    public double getSomaAvaliacao() {
+        return somaAvaliacao;
+    }
+
+    public void setSomaAvaliacao(double somaAvaliacao) {
+        this.somaAvaliacao = somaAvaliacao;
+    }
+
+    public int getTotalAvaliacoes() {
+        return totalAvaliacoes;
+    }
+
+    public void setTotalAvaliacoes(int totalAvaliacoes) {
+        this.totalAvaliacoes = totalAvaliacoes;
+    }
 
     public ClassificacaoEnum getClassificacaoIndicativa() {
         return classificacaoIndicativa;
