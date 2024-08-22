@@ -24,6 +24,9 @@ public class ContatoDao {
             comandoSQL.setString(4,contato.getEmail());
             comandoSQL.setString(5, contato.getInstagram());
             comandoSQL.setString(6, contato.getTipoContato().toString());
+            comandoSQL.executeUpdate();
+            comandoSQL.close();
+            conexao.close();
 
         }catch (SQLException e){
             e.printStackTrace();
