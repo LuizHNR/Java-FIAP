@@ -1,7 +1,9 @@
 package dao;
+import enums.TipoContatoEnum;
 import models.Contato;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 
 //É a classe responsavel por manipular os dados no BD
@@ -31,5 +33,34 @@ public class ContatoDao {
         }catch (SQLException e){
             e.printStackTrace();
         }
+    }
+
+    public Contato buscarPorId(int id) throws SQLException{
+        conexao = ConnectionFactory.obterConexao();
+        PreparedStatement comandoSql = null;
+
+        Contato contato = new Contato();
+        try{
+            String sql = "select * from tbl_contato where id_contato = ?";
+            comandoSql.setInt(1, id);
+            ResultSet rs = comandoSql.executeQuery();
+
+            if(rs.next()){
+                contato.setCodigo(rs.getInt(1));
+                contato.setNome(rs.getString(2));
+                contato.setTelefone(rs.getString(3));
+                contato.setEmail(rs.getString(4));
+                contato.setInstagram(rs.getString(5));
+                contato.setTipoContato(TipoContatoEnum.valueOf(rs.getString(6)));
+            }
+        }catch (SQLException e){
+            e.printStackTrace();
+        }
+        finally {
+            comandoSql.close();
+            conexao.close();
+        }
+
+        return contato;
     }
 }
