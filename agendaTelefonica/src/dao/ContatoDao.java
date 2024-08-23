@@ -42,6 +42,7 @@ public class ContatoDao {
         Contato contato = new Contato();
         try{
             String sql = "select * from tbl_contato where id_contato = ?";
+            comandoSql = conexao.prepareStatement(sql);
             comandoSql.setInt(1, id);
             ResultSet rs = comandoSql.executeQuery();
 
