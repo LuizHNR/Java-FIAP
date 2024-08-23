@@ -1,0 +1,9 @@
+Select Campos from Tabela;
+Select * from Tabela_exemplo;
+       |
+       |
+       Todos os Campos
+
+Select * from tabela where condição
+
+Select * from tblContato where ID_Contato=1 // comando para procurar na tabela com a condição sendo ID_Contato
