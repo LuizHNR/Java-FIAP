@@ -142,5 +142,21 @@ public class ContatoDao {
         return contatos;
     }
 
+    public void deletarContato (int id) {
+        conexao = ConnectionFactory.obterConexao();
+        PreparedStatement comandoSql = null;
+
+        try{
+            String sql = "delete from tbl_contato where id_contato = ?";
+            comandoSql = conexao.prepareStatement(sql);
+            comandoSql.setInt(1,id);
+            comandoSql.executeUpdate();
+            comandoSql.close();
+            conexao.close();
+        }catch (SQLException e){
+            e.printStackTrace();
+        }
+    }
+
 
 }
