@@ -1,0 +1,10 @@
+
+„
+java:S1854"<Remove this useless assignment to local variable "contatos".(Ğ«è™ûÿÿÿÿ8•¨œ2J$ebd331df-399c-4ee5-9533-c6e08906c2ce
+r	java:S106"+Replace this use of System.out by a logger.(±Ùİ‹ÿÿÿÿÿ8á»Œœ2J$41514f59-ae62-4b1b-9cd4-4604c1a89c9d
+m	java:S106"+Replace this use of System.out by a logger.(‡‹¿Æ8¥§¡œ2J$ee92f4db-7f27-40c3-8834-f497a0d17501
+L	java:S106"+Replace this use of System.out by a logger.(ï¢ó‡üÿÿÿÿ8³¢œ2
+u
+java:S1128"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8š˜œ2J$c56058d8-a896-4001-ae17-601108023fb2
+v
+java:S1128	".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8š˜œ2J$3dfa6b0f-673d-4b66-8292-2789c53d96cf
