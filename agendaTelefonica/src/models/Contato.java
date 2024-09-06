@@ -67,13 +67,13 @@ public class Contato {
 
     @Override
     public String toString() {
-        return "Contato{" +
-                "codigo=" + codigo +
-                ", nome='" + nome + '\'' +
-                ", telefone='" + telefone + '\'' +
-                ", email='" + email + '\'' +
-                ", instagram='" + instagram + '\'' +
-                ", tipoContato=" + tipoContato +
-                '}';
+        return "\nContato: " + codigo +
+                "\nNome:" + nome +
+                "\nTelefone: " + telefone +
+                "\nEmail: " + email +
+                "\nInstagram: " + instagram  +
+                "\nTipo do Contato: " + tipoContato +
+                "\n===================================";
+
     }
 }

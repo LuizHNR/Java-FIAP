@@ -1,0 +1,18 @@
+
+’
+java:S2095b"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ô¨÷Õ8¦üÁ‘œ2J$f792966d-6c33-4569-a734-28d11d4a9017
+—
+java:S2095F"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ØÅé˜şÿÿÿÿ8¦üÁ‘œ2J$4925134d-e9d1-45b3-877b-c0634f9de900
+q
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(øÙÈğıÿÿÿÿ8Ù»Æ‘œ2
+—
+java:S20950"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ØÅé˜şÿÿÿÿ8¶ÌÂ‘œ2J$531782f8-3dec-4dee-a7a5-00b8b104b4de
+’
+java:S2095|"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(îÂ«¹8¥üÁ‘œ2J$243d038f-2739-4d44-a169-49e89f383dbe
+g
+java:S6905E"Don't use the query "SELECT *".(ÍçØËÿÿÿÿÿ8±üÁ‘œ2J$952a1a59-94fe-42a2-9f59-ec2637093a60
+ƒ	java:S125U"<This block of commented-out lines of code should be removed.(ËÌÎ‰şÿÿÿÿ8³üÁ‘œ2J$84417a8c-f661-4a3d-a22c-7b0e6c8b225d
+b
+java:S6905b"Don't use the query "SELECT *".(Ô¨÷Õ8µüÁ‘œ2J$39f9fe0e-f4d2-4108-9098-0123a8e226b5
+b
+java:S6905|"Don't use the query "SELECT *".(îÂ«¹8·üÁ‘œ2J$c5a55e69-6152-4462-a4b6-a4c8affb8c3b
