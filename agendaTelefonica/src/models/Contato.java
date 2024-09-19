@@ -64,4 +64,16 @@ public class Contato {
     public void setTipoContato(TipoContatoEnum tipoContato) {
         this.tipoContato = tipoContato;
     }
+
+    @Override
+    public String toString() {
+        return "\nContato: " + codigo +
+                "\nNome:" + nome +
+                "\nTelefone: " + telefone +
+                "\nEmail: " + email +
+                "\nInstagram: " + instagram  +
+                "\nTipo do Contato: " + tipoContato +
+                "\n===================================";
+
+    }
 }
