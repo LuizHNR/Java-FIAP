@@ -1,0 +1,7 @@
+
+’
+java:S2095D"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ª”É¶8ì½”2J$151db2e9-2f29-4f80-86e3-f70515e90238
+g
+java:S6905R"Don't use the query "SELECT *".(Ê¦ÊÇùÿÿÿÿ8ì½”2J$c91b9103-49ad-4a8b-bc8d-1c1edaa884f4
+g
+java:S6905h"Don't use the query "SELECT *".(°íÀøÿÿÿÿ8¢ì½”2J$eb9e89dd-0299-4d02-8114-ccb4c20bbaa7

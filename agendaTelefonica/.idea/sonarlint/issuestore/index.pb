@@ -19,3 +19,7 @@ R
 "src/tests/TesteListarContatos.java,5\5\554e3b5141ff380aecfa39edf31b0223fccd6dc7
 Q
 !src/tests/TesteBuscarPorTipo.java,4\8\4800ab01a697f53200964d0d2b8edf842c07ec25
+H
+src/models/Endereco.java,0\1\01f149310029ea2d58d403f8c3d6a568b4272809
+H
+src/dao/EnderecoDao.java,e\e\eeea291a764776779a9d36e35e95bdc7f26af2f3

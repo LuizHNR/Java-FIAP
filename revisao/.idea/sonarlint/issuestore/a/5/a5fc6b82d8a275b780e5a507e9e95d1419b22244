@@ -1,0 +1,16 @@
+
+€
+java:S1319"eThe type of "nomes" should be an interface such as "List" rather than the implementation "ArrayList".(§èØøÿÿÿÿ
+@	java:S106	"+Replace this use of System.out by a logger.(ÉÈÈ¥
+E	java:S106"+Replace this use of System.out by a logger.(šéüııÿÿÿÿ
+Y
+java:S1854">Remove this useless assignment to local variable "nomeAlunos".(—ÕãÚûÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(®ÕŠùÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(ñØíøÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(òÑÀùÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(¨¸î
+@	java:S106%"+Replace this use of System.out by a logger.(ç‚ô
+@	java:S106("+Replace this use of System.out by a logger.(äÖ¬á
+E	java:S106,"+Replace this use of System.out by a logger.(ö×ç×ûÿÿÿÿ
+F
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ

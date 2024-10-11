@@ -1,12 +1,33 @@
 package models;
 
+import java.util.UUID;
+
 public class Endereco {
+    private UUID id;
     private String cep;
     private String logradouro;
     private String complemento;
     private String bairro;
     private String localidade; //Cidade
     private String uf;
+    private int numero;
+
+    public UUID getId() {
+        return id;
+    }
+
+    public Endereco(){
+        this.id = UUID.randomUUID();
+    }
+
+
+    public int getNumero() {
+        return numero;
+    }
+
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
 
     public String getCep() {
         return cep;
@@ -54,5 +75,9 @@ public class Endereco {
 
     public void setUf(String uf) {
         this.uf = uf;
+    }
+
+    public void setId(UUID id) {
+        this.id = id;
     }
 }

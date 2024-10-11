@@ -9,7 +9,7 @@ public class ConnectionFactory {
         Connection conexao = null;
         try{
             conexao = DriverManager.getConnection("jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl",
-                    "rm556864", "111005");
+                    "usuario", "senha");
         }catch (SQLException erro){
             erro.printStackTrace();
         }

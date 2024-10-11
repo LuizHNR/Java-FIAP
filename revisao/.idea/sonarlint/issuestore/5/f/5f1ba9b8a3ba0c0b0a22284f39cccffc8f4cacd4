@@ -1,0 +1,25 @@
+
+°
+java:S1192'"mDefine a constant instead of duplicating this literal "============================================" 3 times.(ÂÒÌ›8§µ‡ñ™2J$2fe02116-0d1c-4dc2-90e2-96f09aeb23af
+|
+java:S1854""9Remove this useless assignment to local variable "serie".(­²áà8±µ‡ñ™2J$a3fe1bb8-94fc-4a37-bdbd-95c35bc628f2
+m
+java:S1481""*Remove this unused "serie" local variable.(­²áà8´µ‡ñ™2J$c92af6c2-ed82-4757-bc32-7c8d75ce4363
+r	java:S106$"+Replace this use of System.out by a logger.(î´’ùÿÿÿÿ8´µ‡ñ™2J$aae8f12c-2183-4980-9c8e-906f036271c4
+m	java:S106%"+Replace this use of System.out by a logger.(–¾’±8µµ‡ñ™2J$6dcfd3c1-4fad-48ca-b88c-97c8a0476ced
+m	java:S106'"+Replace this use of System.out by a logger.(ÂÒÌ›8µµ‡ñ™2J$e3c5ac00-27b7-4cb9-8964-04e24bf00a55
+r	java:S106("+Replace this use of System.out by a logger.(×ğúúÿÿÿÿ8µµ‡ñ™2J$37bcb547-b0ab-4e33-8f66-3bcc0d2b27b1
+½
+java:S6204+"zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(ª™¨¹8µµ‡ñ™2J$34181cbd-d443-4ddf-8f39-4e46c4c0650b
+r	java:S106,"+Replace this use of System.out by a logger.(Åì“¬ıÿÿÿÿ8µµ‡ñ™2J$8a948382-7cbb-4009-b3f5-6f0bbc1c987b
+m	java:S106."+Replace this use of System.out by a logger.(ÂÒÌ›8µµ‡ñ™2J$cd634013-83a4-409f-bc96-191a6a26f441
+r	java:S106/"+Replace this use of System.out by a logger.(¹ëÃıÿÿÿÿ8·µ‡ñ™2J$864223e5-7e9d-4ee8-90e8-33a4e50bb734
+½
+java:S62043"zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(ª™¨¹8ìù’ñ™2J$db728b45-6fde-4d5f-b474-efc49f1b0a98
+m	java:S1064"+Replace this use of System.out by a logger.(’…”ò8·µ‡ñ™2J$90630244-3174-4a25-a2f1-93b7929608e4
+m	java:S1066"+Replace this use of System.out by a logger.(ÂÒÌ›8¸µ‡ñ™2J$d3187cea-db3c-47e5-bc82-6160c9801af7
+r	java:S1067"+Replace this use of System.out by a logger.(¶™ŒÌûÿÿÿÿ8¸µ‡ñ™2J$c84d971b-6b03-47c1-972e-3768e171bca9
+½
+java:S6204<"zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(ª™¨¹8íù’ñ™2J$d1720c04-a9e8-482c-97f7-13e5a816608a
+m	java:S106="+Replace this use of System.out by a logger.(’…”ò8¹µ‡ñ™2J$c172f870-38ea-4622-ae15-2687f34034f7
+~	java:S125@"<This block of commented-out lines of code should be removed.(Ö Û8ïù’ñ™2J$6b9e2b46-cb92-4e49-bb57-7dec2112871a

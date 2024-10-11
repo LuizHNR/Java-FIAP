@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ProdutoDao {
+
     private Connection conexao;
 
     public ProdutoDao() {
@@ -34,7 +35,43 @@ public class ProdutoDao {
         }
     }
 
-    //Buscar por id => SELECT * FROM TBL_PRODUTO WHERE ID = ?
+    public void alterar(Produto produto){
+        PreparedStatement comandoSql = null;
+        try{
+            String sql = "update tbl_produto set nome = ?, preco=?, quantidade=?" +
+                    " where codigo=?";
+            comandoSql = conexao.prepareStatement(sql);
+            comandoSql.setString(1, produto.getNome());
+            comandoSql.setDouble(2, produto.getPreco());
+            comandoSql.setInt(3, produto.getQuantidade());
+            comandoSql.setInt(4, produto.getCodigo());
+
+            comandoSql.executeUpdate();
+//            //int id = comandoSql.executeUpdate();
+//            //var newProduto = buscarPorId(id);
+            //conexao.close();
+            comandoSql.close();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void excluir(int id){
+        PreparedStatement comandoSql = null;
+        try{
+            String sql = "delete from tbl_produto where codigo = ?";
+            comandoSql = conexao.prepareStatement(sql);
+            comandoSql.setInt(1, id);
+
+            comandoSql.executeUpdate();
+            //conexao.close();
+            comandoSql.close();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    //Buscar por id => SELECT * FROM TBL_PRODUTO WHERE ID_PRODUTO = ?
     public Produto buscarPorId(int id){
         Produto produto = new Produto();
         PreparedStatement comandoSql = null;
@@ -57,7 +94,7 @@ public class ProdutoDao {
         return produto;
     }
 
-    //Listar => SELECT * FROM TBL_PRODUTO
+    //Listar => SELECT * FROM TBL_ENDERECO
     public List<Produto> listar(){
         List<Produto> produtos = new ArrayList<>();
         PreparedStatement comandoSql = null;
@@ -79,4 +116,6 @@ public class ProdutoDao {
         }
         return produtos;
     }
+
+
 }

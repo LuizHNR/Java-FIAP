@@ -1,5 +1,8 @@
 package br.com.fiap.web.model;
 
+import jakarta.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class Produto {
     private int codigo;
     private String nome;
