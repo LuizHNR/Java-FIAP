@@ -1,15 +1,17 @@
 plugins {
 	id 'java'
+	// para gerar o jar
+	id 'application'
 	id 'org.springframework.boot' version '3.4.4'
 	id 'io.spring.dependency-management' version '1.1.7'
 }
 
 group = 'br.fiap'
-version = '0.0.1-SNAPSHOT'
+version = '1.0.0'
 
 java {
 	toolchain {
-		languageVersion = JavaLanguageVersion.of(21)
+		languageVersion = JavaLanguageVersion.of(18)
 	}
 }
 
@@ -29,4 +31,19 @@ dependencies {
 
 tasks.named('test') {
 	useJUnitPlatform()
+}
+
+// Para transformar em .Jar
+tasks.register('fatJar', Jar) {
+	manifest {
+		attributes 'Man-Class': 'br.com.fiap.apisecurity.Application'
+	}
+	duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+	archiveBaseName = 'api-security'
+	from {
+		configurations.compileClasspath.collect{
+			// Ternario tipo de if
+			it.isDirectory() ? it : zipTree(it)
+		}
+	}
 }
