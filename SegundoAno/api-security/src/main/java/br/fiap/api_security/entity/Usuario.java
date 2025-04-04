@@ -61,4 +61,13 @@ public class Usuario implements UserDetails {
     public boolean isEnabled() {
         return UserDetails.super.isEnabled();
     }
+
+    public Usuario(){
+    }
+
+    public Usuario(String login, String senha, UserRole role) {
+        this.login = login;
+        this.senha = senha;
+        this.role = role;
+    }
 }
